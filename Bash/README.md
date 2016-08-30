@@ -1,7 +1,7 @@
 ## Script en BASH. Ejercicios.
 
 Este directorio contiene scripts en BASH (`*.sh`) de práctica.
-** Para ejecutar: `$ bash script.sh `**
+Para ejecutar: `$ bash script.sh `
 
 `ej1-2.sh`  Levanta texto de archivo, inserta lineas vacias (interlineado). Luego eliminia lineas creadas, volviendo al archivo original.
 
@@ -31,4 +31,4 @@ Usa todas las herramientas anteriores más **awk**
 
 Index empiezan desde el 0.
 
-Variables de bash dentro de awk, van entre comillas simples ''
+Variables de bash dentro de awk, van entre comillas simples `''`
