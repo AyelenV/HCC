@@ -16,21 +16,22 @@ Comando para ejecutar en consola:
 ### Toolbox
 
 |libraries|function| uso |
-|--------- |:---- :|:---|
+|---------: |:---- :|:---:|
 |`numpy`   |np.where(`<condition for A>`) |lista de indices de elementos de A que cumplen condicion|          
-|  |np.loadtxt(`<filename>`, unpack=True) |extrae columnas como np.array de archivo de datos|
-|`time`    |time.strtime("%H:%M:%S",time.gmtime(`<segundos>`)) |convierte segundos en hh:mm.ss
-|`sys`     |sys.argv |lista de argumentos de consola
+|  |np.loadtxt(`<filename>`, unpack=True) |Extrae columnas como np.array de archivo de datos|
+|`time`    |time.strtime("%H:%M:%S",time.gmtime(`<segundos>`)) |convierte segundos en hh:mm.ss|
+|`sys`     |sys.argv |lista de argumentos de consola|
 
 
 #### Print with format 
 
 Example:
 
-``` print  '%s' % 'hola', '%7.2f' % 3.145685 ``` 
+```python
+print  '%s' % 'hola', '%7.2f' % 3.145685
+``` 
 
 ## Vista de ejecución de programa
-
 
 
 ```python
