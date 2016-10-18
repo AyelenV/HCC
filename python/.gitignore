@@ -1,0 +1,10 @@
+﻿*.pp_c
+*.asm
+*.o
+*.e
+*~
+*.exe
+*.mod
+*.ipynb
+.ipynb*
+*.zip
